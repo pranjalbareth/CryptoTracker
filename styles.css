@@ -23,3 +23,18 @@ option {
     background-clip: padding-box;
     border: 1px solid #5b7088;
 }
+
+.btn {
+    margin-top: 14px;
+}
+
+.form-row {
+    display: contents;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex:1;
+}
