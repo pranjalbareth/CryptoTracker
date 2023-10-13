@@ -44,18 +44,34 @@
               <div class="form-row">
                 <div
                   class="col-12 form-group"
-                  style="gap: 8px; display: flex; flex-direction: column"
+                  style="gap: 8px; display: flex; flex-direction: row"
                 >
-                  <label for="xyz"><b>COIN TYPE</b></label>
-                  <select name="coinType" class="form-control" id="xyz">
-                    <option value="bitcoin">Bitcoin</option>
-                    <option value="dogecoin">Dogecoin</option>
-                    <option value="ethereum">Ethereum</option>
-                    <option value="polkadot">Polkadot</option>
-                    <option value="tether">Tether</option>
-                    <option value="ripple">Ripple</option>
-                    <option value="litecoin">Litecoin</option>
-                  </select>
+                  <div class="input">
+                    <label for="xyz"><b>COIN TYPE</b></label>
+                    <select name="coinType" class="form-control" id="xyz">
+                      <option value="bitcoin">Bitcoin</option>
+                      <option value="dogecoin">Dogecoin</option>
+                      <option value="ethereum">Ethereum</option>
+                      <option value="polkadot">Polkadot</option>
+                      <option value="tether">Tether</option>
+                      <option value="ripple">Ripple</option>
+                      <option value="litecoin">Litecoin</option>
+                    </select>
+                  </div>
+
+                  <div class="input">
+                    <label for="targetCurrency"><b>TARGET</b></label>
+                    <select
+                      name="targetCurrency"
+                      class="form-control"
+                      id="targetCurrency"
+                    >
+                      <option value="USD">USD</option>
+                      <option value="INR">INR</option>
+                      <option value="EUR">EUR</option>
+                      <option value="GBP">GBP</option>
+                    </select>
+                  </div>
                 </div>
               </div>
 
