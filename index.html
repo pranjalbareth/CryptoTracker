@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="display: flex; align-items: center; height: 90vh">
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1
+          class="col-md-7 text-center"
+          style="color: #007bff; font-weight: 900"
+        >
+          Crypto Tracker
+        </h1>
+        <h4
+          class="col-md-7 text-center"
+          style="font-weight: 100; font-size: 120%; margin: 0 0 70px 0"
+        >
+          By Pranjal Bareth
+        </h4>
+        <div class="col-md-6 row justify-content-center">
+          <div class="col-10">
+            <form
+              action=""
+              id="searchForm"
+              style="gap: 15px; display: flex; flex-direction: column"
+            >
+              <div class="form-row">
+                <div
+                  class="col-12 form-group"
+                  style="gap: 8px; display: flex; flex-direction: column"
+                >
+                  <label for="xyz"><b>COIN TYPE</b></label>
+                  <select name="coinType" class="form-control" id="xyz">
+                    <option value="bitcoin">Bitcoin</option>
+                    <option value="dogecoin">Dogecoin</option>
+                    <option value="ethereum">Ethereum</option>
+                    <option value="polkadot">Polkadot</option>
+                    <option value="tether">Tether</option>
+                  </select>
+                </div>
+              </div>
+
+              <button type="submit" class="col-12 btn btn-primary">
+                Get Price
+              </button>
+            </form>
+          </div>
+        </div>
+        <div
+          class="col-md-7 text-center row justify-content-center"
+          style="margin-top: 30px"
+        >
+          <table
+            class="table col-md-7 m-2"
+            border="1px"
+            id="tableResult"
+            style="border-color: #22272d; width: 85%; margin-top: 15px"
+          ></table>
+        </div>
+        <table class="table"></table>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background: #22272d;
+    color:white;
+}
+
+.form-control {
+    color: #ffffff;
+    background-color: #3e4c5c;
+    background-clip: padding-box;
+    border: 1px solid #5b7088;
+}
+
+.form-control:focus {
+    color: #ffffff;
+    background-color: #3e4c5c;
+    background-clip: padding-box;
+    border: 1px solid #5b7088;
+}
+
+option {
+    color: #ffffff;
+    background-color: #3e4c5c;
+    background-clip: padding-box;
+    border: 1px solid #5b7088;
+}
