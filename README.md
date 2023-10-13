@@ -13,7 +13,7 @@ Crypto Tracker is a simple web application that allows you to track the latest c
 
 You can see a live demo of the Crypto Tracker here: [Demo Link](https://pranjalbareth.github.io/CryptoTracker/) (Insert the URL if available)
 
-![Crypto Tracker Screenshot](https://i.ibb.co/yd5Jgp7/Screenshot-2023-10-13-131106.png)
+![Crypto Tracker Screenshot](https://i.ibb.co/0m0Mj6C/Web-capture-13-10-2023-15954-127-0-0-1.jpg)
 
 ## ✨ Features
 
