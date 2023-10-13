@@ -21,6 +21,8 @@ You can see a live demo of the Crypto Tracker here: [Demo Link](https://pranjalb
 - Real-time data updates every 10 seconds.
 - Simple and user-friendly interface.
 - Built using HTML, JavaScript, and Axios for API requests.
+- **Google Analytics** integration for tracking user behavior.
+- **Live Chat Support** for real-time user assistance.
 
 ## 🔧 Usage
 1. Launch the application by opening index.html in your browser.
